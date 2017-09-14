@@ -14,7 +14,6 @@ print(vec)
 answer = []
 for i, num1 in enumerate(x):
     answer.append(num1* y[i])
-
 print(answer)
 
 
