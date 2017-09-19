@@ -5,17 +5,26 @@ cipher = 13
 # cipher = int(input("Enter the cipher number: "))
 spacer = " "
 alphabet = list("abcdefghijklmnopqrstuvwxyz")
+print(alphabet)
 ciphAlphabet = alphabet[cipher:] + alphabet[:cipher]
+print(ciphAlphabet)
 
-alphabet.extend(spacer)
-ciphAlphabet.extend(spacer)
+#without list, straight to dictCipher
+#dict(zip() ch in strings
 
 dictCipher = dict(zip(ciphAlphabet, alphabet))
 
 print(dictCipher)
 
 cipherOut = ""
-for ch in target.lower():
-    cipherOut += dictCipher[ch]
+# for ch in target.lower():
+#     if #ch in dict
+
+    # cipherOut += dictCipher[ch]
+    # else += ch
 
 print(cipherOut)
+
+# outString = ""
+# for i in range(len(target)):
+#     outString.join()
