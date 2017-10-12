@@ -1,8 +1,7 @@
+var z = []
 
-z = []
-
-function leet(str1) {
-  str = str1.toUpperCase()
+function leet (str1) {
+  var str = str1.toUpperCase()
   for (var i = 0; i < str.length; i++) {
     if (str[i] === 'A') {
       z.push('4')
@@ -21,8 +20,9 @@ function leet(str1) {
     } else {
       z.push(str[i])
     }
-  }console.log(z.join(''))
+  }
+  console.log(z.join(''))
 }
-str = 'alex'
+var stringerooney = 'alex7'
 
-leet(str)
+leet(stringerooney)
